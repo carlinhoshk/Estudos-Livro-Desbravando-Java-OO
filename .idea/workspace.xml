@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0401257c-b5d3-4b63-a873-bcbb3f2fd885" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/livro/oo/RegrasDeDesconto.java" afterDir="false" />
+    <list default="true" id="0401257c-b5d3-4b63-a873-bcbb3f2fd885" name="Changes" comment="Primeiros arquivos e primeiro objeto criado.">
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/CarrinhoDeCompras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/Editora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/LivroFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/MiniLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/RegistroDeVendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livro/oo/Revista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/livro/oo/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livro/oo/Autor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livro/oo/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livro/oo/CadastroDeLivros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livro/oo/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livro/oo/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livro/oo/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livro/oo/RegrasDeDesconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,9 +50,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RegrasDeDesconto">
+  <component name="RunManager" selected="Application.RegistroDeVendas">
     <configuration name="CadastroDeLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="livro.oo.CadastroDeLivros" />
+      <module name="Estudos-Livro-Desbravando-Java-OO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="livro.oo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistroDeVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="livro.oo.RegistroDeVendas" />
       <module name="Estudos-Livro-Desbravando-Java-OO" />
       <extension name="coverage">
         <pattern>
@@ -69,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegistroDeVendas" />
         <item itemvalue="Application.RegrasDeDesconto" />
         <item itemvalue="Application.CadastroDeLivros" />
       </list>
@@ -83,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654828917422</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeiros arquivos e primeiro objeto criado.">
+      <created>1654834370040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654834370040</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiros arquivos e primeiro objeto criado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiros arquivos e primeiro objeto criado." />
   </component>
 </project>
