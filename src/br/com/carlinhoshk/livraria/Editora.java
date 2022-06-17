@@ -1,9 +1,10 @@
-package livro.oo;
+package br.com.carlinhoshk.livraria;
 
 public class Editora {
+
     private String nomeFantasia;
-    private String razaoSocial;;
-    private String cnpf;
+    private String razaoSocial;
+    private String cnpj;
 
     public String getNomeFantasia() {
         return nomeFantasia;
@@ -21,11 +22,11 @@ public class Editora {
         this.razaoSocial = razaoSocial;
     }
 
-    public String getCnpf() {
-        return cnpf;
+    public String getCnpj() {
+        return cnpj;
     }
 
-    public void setCnpf(String cnpf) {
-        this.cnpf = cnpf;
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 }

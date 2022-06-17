@@ -1,6 +1,9 @@
-package livro.oo;
+package br.com.carlinhoshk.livraria.produtos;
 
-public class Revista {
+import br.com.carlinhoshk.livraria.Editora;
+
+public class Revista implements Produto, Promocional {
+
     private String nome;
     private String descricao;
     private double valor;
@@ -38,12 +41,24 @@ public class Revista {
         this.editora = editora;
     }
 
-    public boolean aplicaDescontoDe(double porcentagem){
-        if(porcentagem > 0.1){
+    public boolean aplicaDescontoDe(double porcentagem) {
+        if (porcentagem > 0.1) {
             return false;
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
         return true;
+    }
+
+    @Override
+    public int compareTo(Produto outro) {
+
+        if (this.getValor() < outro.getValor()){
+            return -1;
+        }
+        if (this.getValor() > outro.getValor()){
+            return 1;
+        }
+        return 0;
     }
 }

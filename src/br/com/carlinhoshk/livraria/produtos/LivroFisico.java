@@ -1,6 +1,8 @@
-package livro.oo;
+package br.com.carlinhoshk.livraria.produtos;
 
-public class LivroFisico extends Livro {
+import br.com.carlinhoshk.livraria.Autor;
+
+public class LivroFisico extends Livro implements Promocional {
 
     public LivroFisico(Autor autor) {
         super(autor);
@@ -16,7 +18,6 @@ public class LivroFisico extends Livro {
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
-        System.out.println("aplicando desconto no LivroFisico");
         return true;
     }
 }

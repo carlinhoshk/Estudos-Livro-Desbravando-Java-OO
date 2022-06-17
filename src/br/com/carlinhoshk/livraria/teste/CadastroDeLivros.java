@@ -1,4 +1,8 @@
-package livro.oo;
+package br.com.carlinhoshk.livraria.teste;
+
+import br.com.carlinhoshk.livraria.Autor;
+import br.com.carlinhoshk.livraria.produtos.Livro;
+import br.com.carlinhoshk.livraria.produtos.LivroFisico;
 
 public class CadastroDeLivros {
 

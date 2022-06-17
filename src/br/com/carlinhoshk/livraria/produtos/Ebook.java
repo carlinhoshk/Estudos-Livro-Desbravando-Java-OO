@@ -1,11 +1,15 @@
-package livro.oo;
+package br.com.carlinhoshk.livraria.produtos;
 
-public class Ebook extends Livro{
+import br.com.carlinhoshk.livraria.Autor;
+
+public class Ebook extends Livro implements Promocional {
+
     private String waterMark;
 
-    public Ebook(Autor autor){
+    public Ebook(Autor autor) {
         super(autor);
     }
+
     @Override
     public boolean aplicaDescontoDe(double porcentagem) {
         if (porcentagem > 0.15) {
